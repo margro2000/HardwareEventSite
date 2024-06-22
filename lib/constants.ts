@@ -21,10 +21,10 @@ export const BRAND_NAME = 'ACME';
 export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
 export const SITE_NAME = 'ACME Conf';
 export const META_DESCRIPTION =
-  'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
+  'AI has the potential to underwrite a new era of prosperity and abundant economic growth. Developers, researchers and founders are racing to make AI more accessible to build, modify, and use. ​Hear from world-class speakers on the changing nature of the AI infrastructure landscape on GPU development, data centers, decentralized compute, compute as currency and the economic landscape shaping it all.';
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
-export const DATE = '01 January 2022';
+  'The Future of AI, Compute, and Infrastructure';
+export const DATE = 'Thursday, June 27, 2024';
 export const SHORT_DATE = 'Jan 1 - 9:00am PST';
 export const FULL_DATE = 'Jan 1st 9am Pacific Time (GMT-7)';
 export const TWEET_TEXT = META_DESCRIPTION;
@@ -40,18 +40,15 @@ export const CODE_OF_CONDUCT =
 export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
-  {
-    name: 'Live Stage',
-    route: '/stage/a'
-  },
-  {
-    name: 'Vercel Stage',
-    route: '/stage/c'
-  },
-  {
-    name: '100ms Stage',
-    route: '/stage/m'
-  },
+
+  // {
+  //   name: 'Vercel Stage',
+  //   route: '/stage/c'
+  // },
+  // {
+  //   name: '100ms Stage',
+  //   route: '/stage/m'
+  // },
   {
     name: 'Schedule',
     route: '/schedule'
@@ -61,13 +58,13 @@ export const NAVIGATION = [
     route: '/speakers'
   },
   {
-    name: 'Expo',
+    name: 'Learn More',
     route: '/expo'
   },
-  {
-    name: 'Jobs',
-    route: '/jobs'
-  }
+  // {
+  //   name: 'Jobs',
+  //   route: '/jobs'
+  // }
 ];
 
 export type TicketGenerationState = 'default' | 'loading';

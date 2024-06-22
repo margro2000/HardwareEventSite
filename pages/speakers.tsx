@@ -38,7 +38,66 @@ export default function Speakers({ speakers }: Props) {
     <Page meta={meta}>
       <Layout>
         <Header hero="Speakers" description={meta.description} />
-        <SpeakersGrid speakers={speakers} />
+
+        <div className="flex">
+
+        <div className="speaker-profile m-10">
+    <div className="speaker-image">
+      <img 
+        src="/Arny.jpeg"
+        style={{
+          width: '20vw', // Adjust as needed
+          height: '20vw', // Adjust as needed
+          objectFit: 'cover', // To maintain aspect ratio
+          borderRadius: '80%', // To make the image square
+          boxShadow: '0px 0px 30px rgba(0, 0, 0, 0.5)' // Box shadow
+        }}
+      />
+    </div>
+    <div className="speaker-info">
+      <h1 style={{ fontSize: '3vw' }}>Aravind Srinivas</h1>
+      <p style={{ fontSize: '2vw' }}>CEO @ Perplexity</p>
+    </div>
+  </div>
+
+  <div className="speaker-profile m-10">
+    <div className="speaker-image">
+      <img 
+        src="/Arny.jpeg"
+        style={{
+          width: '20vw', // Adjust as needed
+          height: '20vw', // Adjust as needed
+          objectFit: 'cover', // To maintain aspect ratio
+          borderRadius: '80%', // To make the image square
+          boxShadow: '0px 0px 30px rgba(0, 0, 0, 0.5)' // Box shadow
+        }}
+      />
+    </div>
+    <div className="speaker-info">
+      <h1 style={{ fontSize: '3vw' }}>Jimmy Ba</h1>
+      <p style={{ fontSize: '2vw' }}>Research at xAI</p>
+    </div>
+  </div>
+
+  <div className="speaker-profile m-10">
+    <div className="speaker-image">
+      <img 
+        src="/Arny.jpeg"
+        style={{
+          width: '20vw', // Adjust as needed
+          height: '20vw', // Adjust as needed
+          objectFit: 'cover', // To maintain aspect ratio
+          borderRadius: '80%', // To make the image square
+          boxShadow: '0px 0px 30px rgba(0, 0, 0, 0.5)' // Box shadow
+        }}
+      />
+    </div>
+    <div className="speaker-info">
+      <h1 style={{ fontSize: '3vw' }}>Simeon Bochev</h1>
+      <p style={{ fontSize: '2vw' }}>AI Infra Builder</p>
+    </div>
+  </div>
+</div>
       </Layout>
     </Page>
   );

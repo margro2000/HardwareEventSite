@@ -41,31 +41,28 @@ export default function Footer() {
           <HostedByVercel />
           <div className={styles['footer-separator']} />
         </div>
-        <div className={styles['footer-copyright']}>
-          Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} All
-          rights reserved.
-        </div>
+        
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
-            <a
+            {/* <a
               href={REPO}
               className={styles['footer-link']}
               target="_blank"
               rel="noopener noreferrer"
             >
               Source Code
-            </a>
+            </a> */}
           </p>
           <div className={styles['footer-separator']} />
           <p className={styles['footer-paragraph']}>
-            <a
+            {/* <a
               href={CODE_OF_CONDUCT}
               className={styles['footer-link']}
               target="_blank"
               rel="noopener noreferrer"
             >
               Code of Conduct
-            </a>
+            </a> */}
           </p>
           {LEGAL_URL && (
             <>

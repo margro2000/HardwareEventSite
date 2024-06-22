@@ -22,37 +22,41 @@ import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
 export default function Hero() {
   return (
     <div className={styles.wrapper}>
-      <h2
-        className={cn(
-          styleUtils.appear,
-          styleUtils['appear-third'],
-          styleUtils['show-on-mobile'],
-          styles.description
-        )}
-      >
-        {SITE_DESCRIPTION}
-      </h2>
+      <video autoPlay loop muted style={{
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: '100%',
+  objectFit: 'cover',
+}} src="/myVideo2.webm" />
+  
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-        Welcome to the
-        <br className={styleUtils['show-on-desktop']} /> {BRAND_NAME} conference
+      Democratizing Intelligence:
+      <br />
+
+
       </h1>
-      <h2
-        className={cn(
-          styleUtils.appear,
-          styleUtils['appear-third'],
-          styleUtils['show-on-tablet'],
-          styles.description
-        )}
-      >
-        {SITE_DESCRIPTION}
-      </h2>
-      <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-        <p>{DATE}</p>
-        <div className={styles['description-separator']} />
-        <p>
-          <strong>Online</strong>
-        </p>
-      </div>
+      <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
+      The Future of AI, Compute, and Infrastructure
+      <br />
+      </h1>
+
+      <div 
+  className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}
+  style={{
+    color: '#B026FF', // Bright purple color
+    textShadow: '3px 3px 6px rgba(0, 0, 0, 0.7)', // Stronger text shadow
+    WebkitTextStroke: '1px white' // White outlines
+  }}
+>
+  <p>{DATE}</p>
+  <div className={styles['description-separator']} />
+  <p>
+    <strong>1:00 PM - 5:00 PM</strong>
+  </p>
+</div>
+      
     </div>
   );
 }
