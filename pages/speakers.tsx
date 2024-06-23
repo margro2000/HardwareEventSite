@@ -63,7 +63,7 @@ export default function Speakers({ speakers }: Props) {
   <div className="speaker-profile m-10">
     <div className="speaker-image">
       <img 
-        src="/Arny.jpeg"
+        src="/jimmy.jpeg"
         style={{
           width: '20vw', // Adjust as needed
           height: '20vw', // Adjust as needed
@@ -82,7 +82,7 @@ export default function Speakers({ speakers }: Props) {
   <div className="speaker-profile m-10">
     <div className="speaker-image">
       <img 
-        src="/Arny.jpeg"
+        src="/simon.jpeg"
         style={{
           width: '20vw', // Adjust as needed
           height: '20vw', // Adjust as needed
@@ -97,7 +97,30 @@ export default function Speakers({ speakers }: Props) {
       <p style={{ fontSize: '2vw' }}>AI Infra Builder</p>
     </div>
   </div>
-</div>
+
+        <div className="speaker-profile m-10">
+    <div className="speaker-image">
+      <img 
+        src="/dave.jpeg"
+        style={{
+          width: '20vw', // Adjust as needed
+          height: '20vw', // Adjust as needed
+          objectFit: 'cover', // To maintain aspect ratio
+          borderRadius: '80%', // To make the image square
+          boxShadow: '0px 0px 30px rgba(0, 0, 0, 0.5)' // Box shadow
+        }}
+      />
+    </div>
+    <div className="speaker-info">
+      <h1 style={{ fontSize: '3vw' }}>Dave Deriso</h1>
+      <p style={{ fontSize: '2vw' }}>CEO of Bluue</p>
+    </div>
+  </div>
+
+  </div>
+
+
+
       </Layout>
     </Page>
   );
