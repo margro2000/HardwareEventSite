@@ -41,7 +41,7 @@ export default function Speakers({ speakers }: Props) {
 
         <div className="flex">
 
-        <div className="speaker-profile m-10">
+        <div className="speaker-profile m-6">
     <div className="speaker-image">
       <img 
         src="/Arny.jpeg"
@@ -60,7 +60,7 @@ export default function Speakers({ speakers }: Props) {
     </div>
   </div>
 
-  <div className="speaker-profile m-10">
+  <div className="speaker-profile m-6">
     <div className="speaker-image">
       <img 
         src="/jimmy.jpeg"
@@ -79,7 +79,7 @@ export default function Speakers({ speakers }: Props) {
     </div>
   </div>
 
-  <div className="speaker-profile m-10">
+  <div className="speaker-profile m-6">
     <div className="speaker-image">
       <img 
         src="/simon.jpeg"
@@ -98,7 +98,7 @@ export default function Speakers({ speakers }: Props) {
     </div>
   </div>
 
-        <div className="speaker-profile m-10">
+        <div className="speaker-profile m-6">
     <div className="speaker-image">
       <img 
         src="/dave.jpeg"
