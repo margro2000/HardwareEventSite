@@ -44,7 +44,7 @@ export default function ExpoPage({ sponsors }: Props) {
   
        
         <div style={{ paddingTop: '6vh',display: 'flex', justifyContent: 'center', height: '100vh' }}>
-        <img src="/map.png" style={{ height: '50vh', boxShadow: '10px 10px 5px grey' }} />
+        <img src="/Map.png" style={{ height: '50vh', boxShadow: '10px 10px 5px grey' }} />
         </div>
         </div>
       </Layout>
@@ -57,7 +57,7 @@ export default function ExpoPage({ sponsors }: Props) {
   objectFit: 'cover',
   
   // filter: 'blur(1px)',
-}} src="/Video4.webm" />
+}} src="/video4.webm" />
       
 
      
