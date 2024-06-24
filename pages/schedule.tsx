@@ -49,11 +49,7 @@ export default function SchedulePage({ allStages }: Props) {
 
     <Page meta={meta}>
 
-
-      <Layout>
-      <div style={{ position: 'relative', zIndex: 1 }}>
-      <Header hero="Schedule of Events" description={"Please check back here as we continue to update our discussions series"} />
-      <video autoPlay loop muted style={{
+     <video autoPlay loop muted style={{
   position: 'fixed',
   top: 0,
   left: 0,
@@ -63,6 +59,10 @@ export default function SchedulePage({ allStages }: Props) {
   
   // filter: 'blur(1px)',
 }} src="/Video2.webm" />
+      <Layout>
+      <div style={{ position: 'relative', zIndex: 1 }}>
+      <Header hero="Schedule of Events" description={"Please check back here as we continue to update our discussions series"} />
+
         <Schedule allStages={allStages} />
        
        
