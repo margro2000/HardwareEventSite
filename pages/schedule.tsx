@@ -45,18 +45,37 @@ export default function SchedulePage({ allStages }: Props) {
   };
 
   return (
+    <div>
+         <video autoPlay loop muted style={{
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: '100%',
+  objectFit: 'cover',
+  
+  // filter: 'blur(1px)',
+}} src="/Video2.webm" />
+
     <Page meta={meta}>
+
+  
       <Layout>
-        <Header hero="Schedule" description={meta.description} />
+      <div style={{ position: 'relative', zIndex: 1 }}>
+      <Header hero="Schedule of Events" description={"Please check back here as we continue to update our discussions series"} />
+
         <Schedule allStages={allStages} />
-        <div>
+       
+       
         <Timeline position="alternate">
       <TimelineItem>
+
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
+          
           <Typography variant="h6" component="span">
             1pm - Doors open
           </Typography>
@@ -124,9 +143,11 @@ export default function SchedulePage({ allStages }: Props) {
   </TimelineContent>
 </TimelineItem>
     </Timeline>
-        </div>
+    </div>
       </Layout>
+      {/* </div> */}
     </Page>
+    </div>
   );
 }
 
