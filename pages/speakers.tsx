@@ -35,11 +35,24 @@ export default function Speakers({ speakers }: Props) {
     description: META_DESCRIPTION
   };
   return (
+    <div>
     <Page meta={meta}>
       <Layout>
-        <Header hero="Speakers" description={meta.description} />
-
-        <div className="flex">
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <video autoPlay loop muted style={{
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: '100%',
+  objectFit: 'cover',
+  filter: 'blur(1px)',
+  // filter: 'blur(1px)',
+}} src="/Video3.mp4" />
+</div>
+<div style={{ position: 'relative', zIndex: 1 }}>
+<Header hero="Speakers" description={meta.description} />
+        <div className="flex flex-wrap justify-center">
 
         <div className="speaker-profile m-6">
     <div className="speaker-image">
@@ -118,11 +131,11 @@ export default function Speakers({ speakers }: Props) {
   </div>
 
   </div>
-
-
+  </div>
 
       </Layout>
     </Page>
+    </div>
   );
 }
 
