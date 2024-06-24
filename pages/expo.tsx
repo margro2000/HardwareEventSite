@@ -37,11 +37,32 @@ export default function ExpoPage({ sponsors }: Props) {
 
   return (
     <Page meta={meta}>
+      
       <Layout>
+      <div style={{ position: 'relative', zIndex: 1 }}>
         <Header hero="Expo" description={meta.description} />
-        <SponsorsGrid sponsors={sponsors} />
+  
+       
+        <div style={{ paddingTop: '6vh',display: 'flex', justifyContent: 'center', height: '100vh' }}>
+        <img src="/map.png" style={{ height: '50vh', boxShadow: '10px 10px 5px grey' }} />
+        </div>
+        </div>
       </Layout>
+      <video autoPlay loop muted style={{
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: '100%',
+  objectFit: 'cover',
+  
+  // filter: 'blur(1px)',
+}} src="/Video4.webm" />
+      
+
+     
     </Page>
+    
   );
 }
 
