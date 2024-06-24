@@ -81,7 +81,6 @@ export default function Hero() {
 </div>
 <LearnMore />
 </div>
-
 <div>
 
     {/* <Page meta={meta}> */}
@@ -97,8 +96,9 @@ export default function Hero() {
   // filter: 'blur(1px)',
 }} src="/Video2.webm" /> */}
       {/* <Layout> */}
-      <div style={{ position: 'relative', zIndex: 1 }}>
-      <Header hero="Schedule of Events" description={"Please check back here as we continue to update our discussions series"}/>
+      <div style={{  position: 'relative', zIndex: 1 }}>
+      <Header hero="Schedule of Events" description={""}/>
+      <p style={{marginLeft: '4vh'}}>Please check back here as we continue to update our discussions series</p>
 
         {/* <Schedule allStages={allStages} /> */}
        
@@ -186,7 +186,8 @@ export default function Hero() {
     </div>
       
     <div style={{ position: 'relative', zIndex: 1 }}>
-    <Header hero="Speakers" description={"I has the potential to underwrite a new era of prosperity and abundant economic growth. Developers, researchers and founders are racing to make AI more accessible to build, modify, and use. ​Hear from world-class speakers on the changing nature of the AI infrastructure landscape on GPU development, data centers, decentralized compute, compute as currency and the economic landscape shaping it all."} />
+    <Header hero="Speakers" description={""} />
+        <p style={{marginLeft: '4vh'}}>We have the potential to underwrite a new era of prosperity and abundant economic growth. Developers, researchers and founders are racing to make AI more accessible to build, modify, and use. ​Hear from world-class speakers on the changing nature of the AI infrastructure landscape on GPU development, data centers, decentralized compute, compute as currency and the economic landscape shaping it all.</p>
         <div className="flex flex-wrap justify-center">
 
         <div className="speaker-profile m-6">
