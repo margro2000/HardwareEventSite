@@ -21,9 +21,9 @@ import { REPO } from '@lib/constants';
 
 export default function LearnMore() {
   return (
-    <div className={cn(styleUtils.appear, styleUtils['appear-fifth'], styles.contact)}>
+    <div className={cn(styleUtils.appear, styleUtils['appear-fifth'], styles.contact)} style={{ color: 'white', fontSize: '2em', fontWeight: 'bold' }} >
       Learn more on{' '}
-      <a href={"https://lu.ma/democratizing-intelligence?tk=w8xWWi"} className={styles['contact-email']} target="_blank" rel="noopener noreferrer">
+      <a href={"https://lu.ma/democratizing-intelligence?tk=w8xWWi"} className={styles['contact-email']} style={{ color: 'pink'}} target="_blank" rel="noopener noreferrer" >
         Luma
       </a>
       .
