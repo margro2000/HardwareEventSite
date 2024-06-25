@@ -81,9 +81,10 @@ export default function Hero() {
 </div>
 <LearnMore />
 </div>
-<div>
+<div style={{  position: 'relative', zIndex: 1 }}>
+<div style={{ backgroundColor: 'black', padding: '5vh'}}>
 
-      {/* <div style={{  position: 'relative', zIndex: 1 }}> */}
+     
       <Header hero="Schedule of Events" description={""}/>
       <p style={{marginLeft: '4vh'}}>Please check back here as we continue to update our discussions series</p>
 
@@ -167,11 +168,8 @@ export default function Hero() {
   </TimelineContent>
 </TimelineItem>
     </Timeline>
-    </div>
-      {/* </Layout> */}
-      {/* </div> */}
+   
     
-    {/* </div> */}
       
     <div style={{ position: 'relative', zIndex: 1 }}>
     <Header hero="Speakers" description={""} />
@@ -257,7 +255,8 @@ export default function Hero() {
   </div>
     </div>
     </div>
-
+    </div>
+    </div>
     
   );
 }
