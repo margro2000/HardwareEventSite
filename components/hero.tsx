@@ -83,20 +83,7 @@ export default function Hero() {
 </div>
 <div>
 
-    {/* <Page meta={meta}> */}
-
-     {/* <video autoPlay loop muted style={{
-  position: 'fixed',
-  top: 0,
-  left: 0,
-  width: '100%',
-  height: '100%',
-  objectFit: 'cover',
-  
-  // filter: 'blur(1px)',
-}} src="/Video2.webm" /> */}
-      {/* <Layout> */}
-      <div style={{  position: 'relative', zIndex: 1 }}>
+      {/* <div style={{  position: 'relative', zIndex: 1 }}> */}
       <Header hero="Schedule of Events" description={""}/>
       <p style={{marginLeft: '4vh'}}>Please check back here as we continue to update our discussions series</p>
 
@@ -161,6 +148,7 @@ export default function Hero() {
 <TimelineItem>
   <TimelineSeparator>
     <TimelineDot />
+    <TimelineConnector />
   </TimelineSeparator>
   <TimelineContent>
     <Typography variant="h6" component="span">
@@ -183,7 +171,7 @@ export default function Hero() {
       {/* </Layout> */}
       {/* </div> */}
     
-    </div>
+    {/* </div> */}
       
     <div style={{ position: 'relative', zIndex: 1 }}>
     <Header hero="Speakers" description={""} />
