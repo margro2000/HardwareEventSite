@@ -179,7 +179,7 @@ export default function Hero() {
         <div className="speaker-profile m-6">
     <div className="speaker-image">
       <img 
-        src="/Arny.jpeg"
+        src="/George.jpeg"
         style={{
           width: '20vw', // Adjust as needed
           height: '20vw', // Adjust as needed
@@ -190,8 +190,8 @@ export default function Hero() {
       />
     </div>
     <div className="speaker-info">
-      <h1 style={{ fontSize: '3vw' }}>Aravind Srinivas</h1>
-      <p style={{ fontSize: '2vw' }}>CEO @ Perplexity</p>
+      <h1 style={{ fontSize: '3vw' }}>George Hotz</h1>
+      <p style={{ fontSize: '2vw' }}>Founder @ Tinycorp</p>
     </div>
   </div>
 

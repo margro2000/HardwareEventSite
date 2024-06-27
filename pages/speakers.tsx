@@ -57,7 +57,7 @@ export default function Speakers({ speakers }: Props) {
         <div className="speaker-profile m-6">
     <div className="speaker-image">
       <img 
-        src="/Arny.jpeg"
+        src="/George.jpeg"
         style={{
           width: '20vw', // Adjust as needed
           height: '20vw', // Adjust as needed
@@ -68,8 +68,8 @@ export default function Speakers({ speakers }: Props) {
       />
     </div>
     <div className="speaker-info">
-      <h1 style={{ fontSize: '3vw' }}>Aravind Srinivas</h1>
-      <p style={{ fontSize: '2vw' }}>CEO @ Perplexity</p>
+      <h1 style={{ fontSize: '3vw' }}>George Hotz</h1>
+      <p style={{ fontSize: '2vw' }}>founder @ tinycorp</p>
     </div>
   </div>
 
@@ -129,6 +129,29 @@ export default function Speakers({ speakers }: Props) {
       <p style={{ fontSize: '2vw' }}>CEO of Bluue</p>
     </div>
   </div>
+
+  <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
+    <div className="speaker-info mr-8">
+      <h1 style={{ fontSize: '3vw' }}>Gill Verdon</h1>
+      <p style={{ fontSize: '2vw' }}>CEO of Bluue</p>
+    </div>
+
+    <div className="speaker-info mr-8">
+      <h1 style={{ fontSize: '3vw' }}>Vincent Weisser</h1>
+      <p style={{ fontSize: '2vw' }}>Founder @ Prime Intellect</p>
+    </div>
+
+    <div className="speaker-info mr-8">
+      <h1 style={{ fontSize: '3vw' }}>Casey Caruso</h1>
+      <p style={{ fontSize: '2vw' }}>Founder @ Topology</p>
+    </div>
+
+    <div className="speaker-info mr-8">
+      <h1 style={{ fontSize: '3vw' }}>Sam Hogan</h1>
+      <p style={{ fontSize: '2vw' }}>CEO @ Kuzco</p>
+    </div>
+
+    </div>
 
   </div>
   </div>
