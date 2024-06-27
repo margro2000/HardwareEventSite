@@ -130,7 +130,7 @@ export default function Speakers({ speakers }: Props) {
     </div>
   </div>
 
-  <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
+  {/* <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
     <div className="speaker-info mr-8">
       <h1 style={{ fontSize: '3vw' }}>Gill Verdon</h1>
       <p style={{ fontSize: '2vw' }}>CEO of Bluue</p>
@@ -151,7 +151,7 @@ export default function Speakers({ speakers }: Props) {
       <p style={{ fontSize: '2vw' }}>CEO @ Kuzco</p>
     </div>
 
-    </div>
+    </div> */}
 
   </div>
   </div>
